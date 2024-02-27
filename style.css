@@ -1,0 +1,312 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+
+    /* background-image: url('new.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    height: 100vh;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(143, 143, 143);
+    color: white;
+    font-size: 1.25rem;
+    height: 10vh;
+
+}
+
+i {
+    margin-right: 10px;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+a:hover {
+    color:black;
+}
+
+li {
+    list-style: none;
+    padding: 12px;
+}
+.btn:hover{
+    color:white;
+}
+button {
+    padding: 10px;
+    background-color: none;
+    /* color: white; */
+    border: 2px solid white;
+    font-size: 1.25rem;
+    margin: 5px;
+    border-radius: 8px;
+    width: 100px;
+    background: none;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:default {
+    color: black;
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+#home {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 23px; */
+    /* margin: 5px 20px; */
+    background-image: url('mainbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    /* border: 2px solid red; */
+    margin-bottom: 70px;
+
+}
+
+.trynow {
+    background-color: rgb(22, 54, 235);
+    color: black;
+    border: white;
+    border-radius: 7px;
+    width: 120px;
+    font-size: 1.25rem;
+    margin: 20px 12px;
+    cursor: pointer;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.trynow:hover {
+    transform: scale(1.1);
+    color: yellow;
+}
+
+h3,
+h1,
+p,
+button {
+    margin: 5px;
+    padding: 2px;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+#services {
+    height: 100%;
+    width: 100%;
+    background: url('formimage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 15px;
+    background-size: cover;
+}
+
+.form {
+    padding: 125px 12px;
+    margin-left: 145px;
+}
+
+#formh2 {
+    padding-bottom: 50px;
+}
+
+label {
+    font-size: 20px;
+    margin: 14px 0px;
+    padding: 6px 25px;
+}
+
+input {
+    font-size: 15px;
+    margin: 10px 5px;
+    padding: 10px 50px;
+
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px;
+}
+.btn {
+    background: #000;
+    border-radius: 14px;
+    color: white;
+    /* padding: 6px 47px; */
+    font-weight: 800;
+    font-size: 15px;
+    margin: 30px 94px;
+    height: 45px;
+    cursor: pointer;
+    width: 140px;
+    margin-left: 294px;
+}
+.btn,:hover{
+    color: white;
+}
+
+
+.table {
+    
+    height: 100%;
+    width: 100%;
+    background: url('tableimage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2px;
+    background-size: cover;
+}
+
+#yourspasword{
+    margin-top: 15px;
+}
+.storepassword {
+    /* padding: 26px 460px; */
+    color: black;
+    
+    height: 50vh;
+    /* margin: 136px 458px; */
+    /* margin-bottom: 620px; */
+    margin-left: 500px;
+}
+
+
+#tableh2 {
+    padding: 100px;
+}
+
+table {
+    color: white;
+    /* border:2px solid white; */
+}
+
+th {
+    font-weight: 900;
+}
+
+td {
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+td,th,tr {
+
+    border: 2px solid white;
+    padding: 2px 6px;
+    margin: 2px 2px
+}
+
+
+img {
+    margin-left: 60%;
+    cursor: pointer;
+}
+
+#alert {
+    display: none;
+}
+
+.smbtn {
+    color: white;
+    background: rgb(242, 86, 86);
+    height: 25px;
+    width: 75px;
+    border-radius: 10px;
+    font-size: 1rem;
+
+}
+.start{
+    
+        background: #000;
+        border-radius: 14px;
+        color: white;
+        /* padding: 6px 47px; */
+        font-weight: 800;
+        font-size: 15px;
+        margin: 30px 94px;
+        height: 45px;
+        cursor: pointer;
+        width: 140px;
+        margin-left: 294px;
+    }
+    .start:hover{
+        color: white;
+    }
+    
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,
+h3 {
+    margin: 23px;
+}
+
+
+
+#msg {
+    display: none;
+}
