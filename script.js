@@ -34,8 +34,8 @@ const showpasword = () => {
     let table = document.querySelector("table")
     let data = localStorage.getItem("passwords");
     if (data == null || JSON.parse(data).length == 0) {
-        table.innerHTML = "no data to show"
-       
+        table.innerHTML = `Sorry, But you never Save any Password here<br>
+        <button class="start"><a class="black"href="http://127.0.0.1:5500/index.html#services">start now</a><button>`
     } else {
         table.innerHTML = ` <tr>
 

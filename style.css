@@ -273,7 +273,7 @@ img {
     font-size: 1rem;
 
 }
-/* .start{
+.start{
     
         background: #000;
         border-radius: 14px;
@@ -290,7 +290,7 @@ img {
     .start:hover{
         color: white;
     }
-     */
+    
 
 .container {
     display: flex;
